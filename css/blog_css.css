@@ -31,18 +31,6 @@ span,p{
 	border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
 }
-.blog_share{
-	position: fixed;
-	margin: 300px auto;
-	height: 42px;
-	width: 42px;
-	left: 0;
-	z-index: 100;
-	background: rgba(255,255,255,.2);
-	border-radius: 21px;
-	box-shadow: 0 1px 4px rgba(0,0,0,.65);
-    -webkit-box-shadow: rgba(0,0,0,.65) 0 1px 4px;
-}
 /* vertical-aligen */
 .blog_dock{
 	position: relative;
