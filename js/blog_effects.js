@@ -8,7 +8,7 @@ var a_idx = 0;jQuery(document).ready(function($) {$("body").click(function(e) {
 function color(){
     return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")";
 }
-(function() {
+/*(function() {
     function k(a, b, c) {
         if (a.addEventListener) a.addEventListener(b, c, false);
         else a.attachEvent && a.attachEvent("on" + b, c)
@@ -54,7 +54,7 @@ function color(){
     function i(a) {
         this.parent = document.body;
         this.createEl(this.parent, a);
-        this.size = Math.random() * 10 + 15; /* 两个数字控制雪花的大小，目前代码控制雪花尺寸为10~25px */
+        this.size = Math.random() * 10 + 15; //两个数字控制雪花的大小，目前代码控制雪花尺寸为10~25px
         this.el.style.width = Math.round(this.size) + "px";
         this.el.style.height = Math.round(this.size) + "px";
         this.maxLeft = document.body.offsetWidth - this.size;
@@ -102,7 +102,7 @@ function color(){
     i.prototype = {
         createEl: function(a, b) {
             this.el = document.createElement("img");
-            this.el.setAttribute("src", b + "https://api.dujin.org/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); /* 注意修改为四个雪花文件所在的目录地址 */
+            this.el.setAttribute("src", b + "https://api.dujin.org/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); // 注意修改为四个雪花文件所在的目录地址
             this.el.style.position = "absolute";
             this.el.style.display = "block";
             this.el.style.zIndex = "99999";
@@ -128,3 +128,4 @@ function color(){
     }
 })();
 createSnow("", 40);
+*/
